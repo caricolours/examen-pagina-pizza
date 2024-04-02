@@ -1,0 +1,75 @@
+@import 'bootstrap/dist/css/bootstrap.min.css';
+
+.link-carrito {
+    text-align: center;
+}
+.active {
+    background-color: rgb(255, 255, 255);
+    border: 4px solid #ffffff;
+}
+.link-carrito:hover, .active{
+   background-color: white;
+}
+
+
+#banner {
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgb(255, 255, 255);
+}
+
+.pizzaCard {
+    width: 100%;
+    display: flex;
+    align-items: stretch;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.tarjeta {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 201px;
+}
+ul {
+    list-style: none;
+    font-size: 12px;
+}
+
+.parrafo {
+    font-size: 10px;
+}
+.notFound {
+    height: 450px;
+    width: 600px;
+}
+.textoNotFound {
+    font-size: 200px;
+
+}
+.pizza-carrito {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+    justify-content: center;
+}
+.c-carrito {
+    width: 800px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+    justify-content: center;
+}
+
+.info-carrito {
+    width: 600px;
+
+}
